@@ -10,12 +10,12 @@
 .main-header::before {
 content: '';
 z-index: -1;
-background: #7ABCAC;
+background: #6da093;
 position: absolute;
 top: 0;
 left: 0;
 right: 0;
-height: 30px;
+height: 20px;
 display: block;
 }
 
@@ -23,10 +23,10 @@ display: block;
     display: inline-block;
     font-size: 36px;
     text-align: center;
-    padding: 20px 40px;
+    padding: 20px 30px;
     outline: 2px solid #000;
     outline-offset: 70px;
-    margin: 20px;
+    margin: 10px;
     
 
 }
@@ -38,7 +38,7 @@ display: block;
     font-size: 1em;
     text-align: center;
     padding: 2px 8px;
-    width: 150px;
+    width: 300px;
     margin: 10px auto 20px;
   
 }
@@ -66,11 +66,16 @@ width: 100%;
 .link-section__title {
     font-size: 24px;
     margin-bottom: 8px;
-  }
-  
+}
+
+.social item {
+  display: flex;
+  align-items: center;
+}
+
   .separator {
-    background: darkgray;
-    height: 2px;
+    background: #928f8f;
+    height: 4px;
     border: none;
     margin: 10px 0;
   }
@@ -83,25 +88,25 @@ width: 100%;
   .separator--fancy::before {
     content: '';
     display: block;
-    height: 6px;
-    width: 60px;
-    background: green;
+    height: 10px;
+    width: 100px;
+    background: #6da093;
     position: absolute;
     left: 0;
     bottom: -2px;
   }
 
-  .separator--short {
+/* .separator--short {
     width: 40%;
-  }
+  } */
   
   .pill {
     padding: 2px 8px;
     border-radius: 10px;
     background: darkgray;
     font-size: 14px;
-    margin: 4px 8px;
-    color: #e1e1e1;
+    margin: 5px 2px;
+    color: #fff;
     text-transform: uppercase;
     display: block;
     width: max-content;
@@ -118,15 +123,23 @@ width: 100%;
   .pill--green {
     background: green;
   }
+  .pill--grey {
+      background: grey;
+  }
+
+  .pill--blue {
+    background: blue;
+}
+
   .box1 {
-    height: 250px;
+    height: 300px;
     width: 300px;
-    margin: 0 auto;
+    margin: 3px;
   }
   .content-section {
     display: flex;
     flex-direction: row;
-    max-width: 1080px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
     justify-content: space-around;
