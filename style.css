@@ -1,147 +1,148 @@
 .main-header {
-    position: relative;
-    max-width: 1080px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    
+  position: relative;
+  max-width: 1080px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main-header::before {
-content: '';
-z-index: -1;
-background: #6da093;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-height: 20px;
-display: block;
+  content: '';
+  z-index: -1;
+  background: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  display: block;
 }
 
 .main-header__title {
-    display: inline-block;
-    font-size: 36px;
-    text-align: center;
-    padding: 20px 30px;
-    outline: 2px solid #000;
-    outline-offset: 70px;
-    margin: 10px;
-    
-
+  display: inline-block;
+  font-size: 36px;
+  text-align: center;
+  padding: 15px 20px;
+  outline: 2px solid #000;
+  outline-offset: 60px;
+  margin: 10px;
 }
 
 .main-header__title2 {
-    display: block;
-    background: #000;
-    color: #fff;
-    font-size: 1em;
-    text-align: center;
-    padding: 2px 8px;
-    width: 300px;
-    margin: 10px auto 20px;
-  
+  display: block;
+  background: #000;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  padding: 2px 8px;
+  width: 200px;
+  margin: 8px auto 20px;
 }
 .box {
-  height: 300px;
-  width: 300px;
-  margin: 0 auto;
+  height: 220px;
+  width: 290px;
+  margin: 0px;
 }
-.box:last-child {
-max-width: 600px;
-width: 100%;
+
+.box:nth-child(2) {
+  max-width: 500px;
+  width: 100%;
 }
-  
+
 .container {
   display: flex;
   flex-direction: row;
   max-width: 1080px;
   width: 100%;
   margin: 0 auto;
-  justify-content: space-around;
+  margin-top: 40px;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
-  
-.link-section__title {
-    font-size: 24px;
-    margin-bottom: 8px;
+.link-section__title,
+.content-section__title {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .social item {
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
-  .separator {
-    background: #928f8f;
-    height: 4px;
-    border: none;
-    margin: 10px 0;
-  }
-  
-  .separator--fancy {
-    position: relative;
-    overflow: visible;
-  }
-  
-  .separator--fancy::before {
-    content: '';
-    display: block;
-    height: 10px;
-    width: 100px;
-    background: #6da093;
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-  }
-
-/* .separator--short {
-    width: 40%;
-  } */
-  
-  .pill {
-    padding: 2px 8px;
-    border-radius: 10px;
-    background: darkgray;
-    font-size: 14px;
-    margin: 5px 2px;
-    color: #fff;
-    text-transform: uppercase;
-    display: block;
-    width: max-content;
-  }
-  
-  .pill--red {
-    background: #C29486;
-  }
-  
-  .pill--yellow {
-    background: goldenrod;
-  }
-  
-  .pill--green {
-    background: green;
-  }
-  .pill--grey {
-      background: grey;
-  }
-
-  .pill--blue {
-    background: blue;
+.separator {
+  background: #000;
+  height: 3px;
+  border: none;
+  margin: 10px 0;
 }
 
-  .box1 {
-    height: 300px;
-    width: 300px;
-    margin: 3px;
-  }
-  .content-section {
-    display: flex;
-    flex-direction: row;
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
+.separator--fancy {
+  position: relative;
+  overflow: visible;
+}
+
+.separator--fancy::before {
+  content: '';
+  display: block;
+  height: 8px;
+  width: 100px;
+  background: green;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+
+.separator--short {
+  width: 40%;
+}
+
+.pill {
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: darkgray;
+  font-size: 14px;
+  margin: 5px 2px;
+  color: #fff;
+  text-transform: uppercase;
+  display: block;
+  width: max-content;
+}
+
+.pill--red {
+  background: #c29486;
+}
+
+.pill--yellow {
+  background: goldenrod;
+}
+
+.pill--green {
+  background: green;
+}
+.pill--grey {
+  background: grey;
+}
+
+.pill--blue {
+  background: blue;
+}
+
+.box1 {
+  height: 300px;
+  width: 270px;
+  margin: 0px;
+}
+.content-section {
+  display: flex;
+  flex-direction: row;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+}
