@@ -42,12 +42,12 @@
 }
 .box {
   height: 220px;
-  width: 290px;
+  width: 285px;
   margin: 0px;
 }
 
 .box:nth-child(2) {
-  max-width: 520px;
+  max-width: 510px;
   width: 100%;
 }
 
