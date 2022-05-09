@@ -161,13 +161,20 @@
 }
 
 @media screen and (max-width: 800px) {
+  .main-header__title {
+    font-size: 24px;
+  }
   .main-header::before {
     display: none;
+  }
+  .box:nth-child(2),
+  .separator--fancy {
+    max-width: 260px;
   }
   .container,
   .content-section {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 150px;
+    margin: 80px 150px;
   }
 }
