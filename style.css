@@ -196,9 +196,9 @@
   .content-section {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 80px 140px;
+    margin: 140px;
   }
   .box1 {
-    margin-top: 30px;
+    margin-top: 80px;
   }
 }
